@@ -11,7 +11,5 @@ class Calculator:
 
     @classmethod
     def multiply(cls, a, b):
-        cls.a = a
-        cls.b = b
         print(f"The Calculation type is: {cls.calculation_type}")
-        return cls.a * cls.b
+        return a * b
